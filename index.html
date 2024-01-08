@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Draw a monster in a canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <div id="game-controls">
+            <label for="ballCount">Number of Balls:</label>
+            <input type="number" id="ballCount" value="5"><br>
+
+            <label for="maxSpeed">Max Ball Speed:</label>
+            <input type="number" id="maxSpeed" value="3"><br>
+
+            <label for="minSize">Min Ball Size:</label>
+            <input type="number" id="minSize" value="10"><br>
+
+            <label for="maxSize">Max Ball Size:</label>
+            <input type="number" id="maxSize" value="30"><br>
+
+            <label for="playerSize">Player Size:</label>
+            <input type="number" id="playerSize" value="20"><br>
+
+            <button id="startButton">Start</button>
+            <button id="stopButton">Stop</button>
+        </div>
+        <canvas id="myCanvas" width="800" height="600" tabindex="1"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
